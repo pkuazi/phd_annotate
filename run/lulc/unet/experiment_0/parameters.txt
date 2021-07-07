@@ -1,0 +1,9 @@
+dataset:lulc
+backbone:xception
+out_stride:16
+lr:0.005
+lr_scheduler:poly
+loss_type:ce
+epoch:500
+base_size:256
+crop_size:256
